@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-email:
+title: Trevor de Koekkoek
+subtitle: web, rowing, etc...
+description: My thoughts on modern web development and my passion for rowing and fitness
+author: Trevor de Koekkoek
+email: tdekoekkoek@gmail.com
 language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://tdekoekkoek.github.io
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -74,15 +74,16 @@ per_page: 10
 pagination_dir: page
 
 # Disqus
-disqus_shortname:
+disqus_shortname: tdekoekkoek
 
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: landscape
+theme: codeland
 exclude_generator:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repo: https://github.com/tdekoekkoek/tdekoekkoek.github.io.git

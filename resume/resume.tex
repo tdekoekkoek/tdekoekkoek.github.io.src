@@ -1,0 +1,191 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Two Column One Page Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (24/1/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro (The CV Inn)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Font size - 10pt, 11pt or 12pt
+
+\usepackage[hmargin=1.25cm, vmargin=1.5cm]{geometry} % Document margins
+
+\usepackage{marvosym} % Required for symbols in the colored box
+\usepackage{ifsym} % Required for symbols in the colored box
+
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+% Fonts and tweaks for XeLaTeX
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Droid Serif} % Main document font
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Droid Sans} % Font for your name at the top
+%\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+% Colors for links, text and headings
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
+\definecolor{shade}{HTML}{F5DD9D} % Peach color for the contact information box
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
+\definecolor{headings}{HTML}{701112} % Dark red color for headings
+% Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
+
+\hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example footer:
+%\rfoot{\color{headings} {\sffamily Last update: \today}. Typeset with Xe\LaTeX}
+
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+\usepackage{titlesec} % Allows creating custom \section's
+
+% Format of the section titles
+\titleformat{\section}{\color{headings}
+\scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
+
+\begin{document}
+
+\color{text1} % Sets the default text color for the whole document to the color defined as 'text1'
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\sffamily\Huge Trevor de Koekkoek }\\ % Your name
+\vspace{20pt}
+	
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} % Start the left-hand side of the page
+\vspace{0pt} % Trick for alignment
+	
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Summary} 
+\normalsize{ A skilled and detail-oriented problem solver. Excellent written and verbal skills. Can work well in a team environment or independently and can lead a team or serve as a mentor for junior developers. Has developed numerous web and thick-client applications involving the full software development life-cycle.\\\\* Advanced skills in HTML5 / Javascript client applications using AngularJS, JQuery, KnockoutJS, Sencha Touch, Sencha ExtJS, KendoUI and JQuery UI.\\\\* Experienced in the latest Microsoft technologies including ASP.NET MVC, LINQ, Web API, Generics, Entity Framework, Code First, migrations.\\\\* Experienced in object oriented design and design patterns including MVC, Repository and MVVM.\\\\* Code versioning using Git, Mercurial, SVN and TFS.\\\\* Experienced in CSS,Twitter Bootstrap, .LESS and responsive design. }\\
+
+
+
+\section{Work Experience} 
+
+
+{\raggedleft\textsc{ Current, from December 2014 }\par}
+
+{\raggedright\large INPO \\
+\textit{ Senior UI Developer }\\[5pt]}
+
+\normalsize{ Developing a resource scheduler application for the operation of nuclear power plants.  The application is developed in AngularJS, WebAPI, TypeScript, Breeze and KendoUI }\\
+
+{\raggedleft\textsc{ Current, from June 2014 }\par}
+
+{\raggedright\large Benny Advantage \\
+\textit{ Consultant }\\[5pt]}
+
+\normalsize{ Developed a robust web portal for a medical application.  The portal is used to do bulk updates to Parse.com via excel spreadsheets.  The application is built using AngularJS, Entity Framework, and the C\# Parse SDK.  The application inter-operates with Parse.com and is hosted on Azure. }\\
+
+{\raggedleft\textsc{ June 2014 -- November 2014 }\par}
+
+{\raggedright\large Bridge2 Solutions \\
+\textit{ UI Architect }\\[5pt]}
+
+\normalsize{ Built travel and rewards application using AngularJS, Bootstrap, angular-ui, ui-router, JSP, CSS, .LESS, JQuery, NodeJS, Grunt.\\The application utilizes several webservices for searching for hotels, flights, car rentals and cruises and viewing details and adding these items to a shopping cart.  Items can be purchased via accumulated rewards points. }\\
+
+{\raggedleft\textsc{ October 2011 -- January 2012 }\par}
+
+{\raggedright\large Turner Broadcasting \\
+\textit{ Senior Software Consultant }\\[5pt]}
+
+\normalsize{ Built Inventory tracking application for IPad utilizing ASP.NET MVC 3, Razor, JQuery Mobile and Entity Framework. }\\
+
+{\raggedleft\textsc{  2010 --  2011 }\par}
+
+{\raggedright\large DDR Technologies, Inc. \\
+\textit{ Senior Consultant }\\[5pt]}
+
+\normalsize{ TBD }\\
+
+
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage} % End the left-hand side of the page
+\hfill
+\begin{minipage}[t]{0.44\textwidth} % Start the right-hand side of the page
+\vspace{0pt} % Trick for alignment
+
+%----------------------------------------------------------------------------------------
+%	COLORED BOX
+%----------------------------------------------------------------------------------------
+
+\colorbox{shade}{\textcolor{text1}{
+\begin{tabular}{c|p{7cm}}
+\raisebox{-4pt}{\textifsymbol{18}} & undefined \\ % Address
+\raisebox{-3pt}{\Mobilefone} & Provide upon request \\ % Phone number
+\raisebox{-1pt}{\Letter} & \href{mailto:tdekoekkoek@gmail.com }{ tdekoekkoek@gmail.com } \\ % Email address
+\Keyboard & \href{ http://tdekoekkoek.github.io }{ http://tdekoekkoek.github.io } \\ % Website 
+\end{tabular}
+}
+}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education} 
+
+\begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
+
+
+ 1980 -- \textsc{  1987 } & \textbf{ BS } \\ 
+& \textsc{Mathematics} \\ 
+& \textit{University of Southern Mississippi}\\
+&\\
+
+	
+%----------------------------------------------------------------------------------------
+
+\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+
+\section{Skills} 
+\textit{ AngularJS, Bootstrap, ASP.NET Web API, ASP.NET MVC, .NET, C#, Responsive Web Design, Entity Framework, jQuery, Kendo, Microsoft SQL Server, Software Development, Web Applications, Web Services, Databases, ASP.NET, Web Development, Agile Methodologies, Oracle, Java Enterprise Edition, JavaScript, Java, Subversion, Design Patterns }
+
+
+	
+\end{minipage} % End right-hand side of the page
+
+\end{document}  
