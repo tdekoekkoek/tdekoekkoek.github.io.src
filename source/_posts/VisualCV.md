@@ -1,6 +1,8 @@
 title: VisualCV
 date: 2015-02-09 23:44:09
 tags:
+  - resume
+  - visualcv
 ---
 
 I just got started with a new service called [Visual CV](http://www.visualcv.com).  It seems like a pretty handy way to post a resume online.  They have various themes, though I'm using the free one.  You can import your resume from various sources, but I decided to import mine from [LinkedIn](http://linkedin.com).  That way I can use LinkedIn as my master source and generate both an online and PDF version from it.
